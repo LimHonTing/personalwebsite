@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+const colors = require("tailwindcss/colors");
+
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -12,6 +14,11 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+    },
+    colors: {
+      ...colors,
+      primary: colors.purple,
+      secondary: colors.pink,
     },
   },
   plugins: [],
