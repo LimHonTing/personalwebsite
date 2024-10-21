@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl text-justify">
-            "Data is the new oil. It&apos;s valuable, but if unrefined, it cannot really be used." - Peter Sondergaard. 
+            &ldquo;Data is the new oil. It&apos;s valuable, but if unrefined, it cannot really be used.&rdquo; - Peter Sondergaard. 
             <br></br>
             I strive to refine data and extract valuable insights for decision-making.
           </p>

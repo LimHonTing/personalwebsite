@@ -1,7 +1,6 @@
 import React from "react";
-import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/solid";
+import { CodeBracketIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
-import { projectsData } from "@/app/data/projectsData";
 
 interface ProjectCardProps {
   imgUrl: string;

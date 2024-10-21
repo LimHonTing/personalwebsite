@@ -10,6 +10,7 @@ import limitOfAuthority from "../limit-of-authority";
 import financeAndTaxAssistant from "../finance-and-tax";
 import legalComparisonAssistant from "../legal-comparison";
 import visualVibe from "../visual-vibe";
+import Image from "next/image";
 
 const projectContent = [
   {
@@ -67,7 +68,7 @@ const ProjectDetails = ({ params }: { params: Params }) => {
       </div>
       <div className="container mx-auto py-10 px-4">
         <h1 className="text-3xl font-bold mb-4">{project.title}</h1>
-        <img
+        <Image
           src={project.image}
           alt={project.title}
           className="w-full h-64 object-cover rounded-md mb-4"

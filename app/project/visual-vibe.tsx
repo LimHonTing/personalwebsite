@@ -11,7 +11,7 @@ const visualVibe = () => {
         The <strong>Financial Dashboard Analysis Assistant</strong> is a
         cutting-edge AI tool designed to analyze and summarize company financial
         dashboard images. By leveraging advanced Large Language Models (LLMs),
-        this assistant provides a comprehensive overview of the company's
+        this assistant provides a comprehensive overview of the company&apos;s
         financial situation based on the images submitted by users.
         Additionally, it enables users to ask specific questions regarding the
         dashboard, receiving detailed responses that enhance understanding and
@@ -92,7 +92,7 @@ const visualVibe = () => {
         Future iterations of the assistant may include advanced visualization
         capabilities, allowing users to visualize trends and comparisons
         directly within the assistant interface. Additionally, incorporating
-        feedback mechanisms can enhance the model's performance over time,
+        feedback mechanisms can enhance the model&apos;s performance over time,
         ensuring continuous improvement in summarization and query response
         accuracy.
       </p>
