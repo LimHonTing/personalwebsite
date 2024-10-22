@@ -24,7 +24,7 @@ export async function POST(req: Request) {
       from: user_email,
       to: user_email,
       subject: subject,
-      text: `The person contacted you: ${email}\n\nMessage: ${message}`, 
+      text: `The person contacted you: ${email}\n\nMessage: ${message} `, 
     };
 
     await transporter.sendMail(data);
