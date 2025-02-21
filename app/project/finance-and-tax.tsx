@@ -7,23 +7,26 @@ const financeAndTaxAssistant = () => {
 
       <p className="mt-4">
         The <strong>AI Finance and Tax Assistant</strong> is designed to
-        streamline the process of applying for tax incentives, reliefs, or
-        waivers for organizations. It automates the task of processing
-        applications, generating summaries, and submitting documents to the
-        relevant ministry for approval. Additionally, it includes a chatbot
-        feature that allows users to query information about their
-        organization’s tax relief application and any incentives received.
+        streamline the evaluation and approval process for tax incentives,
+        reliefs, and waivers within the ministry. It automates application
+        processing, generates concise summaries, and facilitates document
+        submission for ministerial approval. Additionally, it features an
+        AI-powered chatbot that enables ministry officials to query and retrieve
+        information from submitted applications, providing quick insights into
+        an organization’s tax incentive or relief history. This enhances
+        decision-making efficiency and ensures a smoother approval workflow.
       </p>
 
       <h3 className="text-xl font-semibold mt-6">Key Features</h3>
       <p className="mt-4">
         The assistant handles the entire process of applying for tax incentives
-        or relief, starting from receiving the organization&apos;s letter, generating
-        summaries, and facilitating communication with the ministry. The chatbot
-        functionality helps address any questions regarding the organization&apos;s
-        application, providing a better understanding for the ministry during
-        the review process. The assistant can also generate a sample letter
-        based on whether the ministry approves or rejects the application.
+        or relief, starting from receiving the organization&apos;s letter,
+        generating summaries, and facilitating communication with the ministry.
+        The chatbot functionality helps address any questions regarding the
+        organization&apos;s application, providing a better understanding for
+        the ministry during the review process. The assistant can also generate
+        a sample letter based on whether the ministry approves or rejects the
+        application.
       </p>
 
       <h3 className="text-xl font-semibold mt-6">Application Process</h3>
@@ -50,18 +53,18 @@ const financeAndTaxAssistant = () => {
         organization and the ministry. After an application is submitted, the
         chatbot can answer questions to help the ministry better understand the
         organization&apos;s request. It provides further context about the
-        organization&apos;s offer and their expected benefits upon receiving the tax
-        incentive, relief, or waiver.
+        organization&apos;s offer and their expected benefits upon receiving the
+        tax incentive, relief, or waiver.
       </p>
 
       <ul className="list-disc pl-6 mt-4">
         <li>
-          Answers questions related to the organization&apos;s background and reasons
-          for applying for tax benefits.
+          Answers questions related to the organization&apos;s background and
+          reasons for applying for tax benefits.
         </li>
         <li>
-          Offers additional details on the organization&apos;s projected outcomes
-          after receiving approval for incentives or waivers.
+          Offers additional details on the organization&apos;s projected
+          outcomes after receiving approval for incentives or waivers.
         </li>
       </ul>
 
@@ -84,21 +87,22 @@ const financeAndTaxAssistant = () => {
 
       <ul className="list-disc pl-6 mt-4">
         <li>
-          <strong>Document Ingestion:</strong> The organization&apos;s application
-          letter is processed and ingested using LangChain, which passes the
-          document to a large language model (LLM) for summarization.
+          <strong>Document Ingestion:</strong> The organization&apos;s
+          application letter is processed and ingested using LangChain, which
+          passes the document to a large language model (LLM) for summarization.
         </li>
         <li>
           <strong>Chatbot Integration:</strong> The chatbot is designed to allow
-          the user to query the ingested document, using LangChain&apos;s embedding
-          models to generate responses related to the application&apos;s content and
-          the organization’s tax relief request.
+          the user to query the ingested document, using LangChain&apos;s
+          embedding models to generate responses related to the
+          application&apos;s content and the organization’s tax relief request.
         </li>
         <li>
           <strong>Sample Letter Generation:</strong> After the application is
           approved or rejected by the ministry, LangChain is used to generate a
-          response letter in Bahasa based on the ministry&apos;s decision, ensuring
-          the language and tone of the letter match the official requirements.
+          response letter in Bahasa based on the ministry&apos;s decision,
+          ensuring the language and tone of the letter match the official
+          requirements.
         </li>
       </ul>
 

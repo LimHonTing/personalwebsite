@@ -71,7 +71,10 @@ const ProjectDetails = ({ params }: { params: Params }) => {
         <Image
           src={project.image}
           alt={project.title}
-          className="w-full h-64 object-cover rounded-md mb-4"
+          className="object-cover rounded-md mb-4 w-full h-64"
+          sizes="100vw"            // Responsive image sizes
+          width={0}                // Allow dynamic width with style
+          height={0}             // Set desired height in pixels (e.g., 150px)
         />
         <div className="text-lg text-gray-300 mb-4 text-justify">
           {projectDetails && projectDetails.content && projectDetails.content()}
