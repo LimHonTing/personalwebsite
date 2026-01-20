@@ -40,10 +40,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-          Bachelor of Computer Science(Data Science), University of Malaya (UM)
+          Master of Data Science, University of Malaya (UM)
         </li>
         <li>
-          Diploma of Civil Engineering, University of Technology Malaysia (UTM)
+          Bachelor of Computer Science(Data Science), University of Malaya (UM)
         </li>
       </ul>
     ),
